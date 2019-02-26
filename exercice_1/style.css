@@ -1,0 +1,61 @@
+/* ---------------------PROPRIETER DE BASE */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style-type: none;
+}
+
+li:hover{
+    background-color: grey;
+}
+
+a{
+    display: block;
+    padding: 19px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 15px;
+    width: 250px;
+    text-decoration: none;
+    color: aliceblue;
+    text-align: center;
+    /* padding-top: 33px; */
+}
+
+
+
+/* ________________________NAVIGATION_____________________ */
+
+/* -----------------TITRE */
+h2{
+    text-align: center;
+}
+
+
+/* ------------------------UL/LI */
+#ul_nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    height: 53px;
+}
+
+
+@media (max-width: 750px) {
+    #ul_nav{
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        height: 500px;
+    }
+
+    li:hover{
+        width: 100%;
+        text-align: center;
+    }
+}
